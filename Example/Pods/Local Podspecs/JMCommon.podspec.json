@@ -1,0 +1,23 @@
+{
+  "name": "JMCommon",
+  "version": "0.1.0",
+  "summary": "iOS library of common UI & utility classes",
+  "swift_version": "4.1",
+  "description": "This pod framework was created as a source of common UI & utility classes that can be used by multiple applications to help define a good project structure and reduce repeated code.",
+  "homepage": "https://github.com/j-moseley/ios-commonutils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "j-moseley": "jack.moseley@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/j-moseley/ios-commonutils",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JMCommon/Classes/**/*"
+}

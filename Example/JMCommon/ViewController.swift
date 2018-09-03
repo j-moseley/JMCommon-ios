@@ -2,22 +2,26 @@
 //  ViewController.swift
 //  JMCommon
 //
-//  Created by jackmoseleyvodafone on 09/03/2018.
-//  Copyright (c) 2018 jackmoseleyvodafone. All rights reserved.
+//  Created by j-moseley on 09/03/2018.
+//  Copyright (c) 2018 j-moseley. All rights reserved.
 //
 
 import UIKit
+import JMCommon
 
-class ViewController: UIViewController {
+class ViewController: JMBaseViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+    // MARK: - Views
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override var rootView: MainView? {
+        get {
+            if _rootView == nil {
+                let rootView: MainView = MainView()
+                _rootView = rootView
+            }
+
+            return _rootView as? MainView
+        }
     }
 
 }

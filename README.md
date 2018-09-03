@@ -1,6 +1,6 @@
 # JMCommon
 
-[![CI Status](https://img.shields.io/travis/jackmoseleyvodafone/JMCommon.svg?style=flat)](https://travis-ci.org/jackmoseleyvodafone/JMCommon)
+[![CI Status](https://img.shields.io/travis/j-moseley/JMCommon.svg?style=flat)](https://travis-ci.org/j-moseley/JMCommon)
 [![Version](https://img.shields.io/cocoapods/v/JMCommon.svg?style=flat)](https://cocoapods.org/pods/JMCommon)
 [![License](https://img.shields.io/cocoapods/l/JMCommon.svg?style=flat)](https://cocoapods.org/pods/JMCommon)
 [![Platform](https://img.shields.io/cocoapods/p/JMCommon.svg?style=flat)](https://cocoapods.org/pods/JMCommon)
@@ -22,7 +22,7 @@ pod 'JMCommon'
 
 ## Author
 
-jackmoseleyvodafone, jack.moseley@vodafone.com
+j-moseley, jack.moseley@outlook.com
 
 ## License
 
