@@ -26,7 +26,7 @@ This pod framework was created as a source of common UI & utility classes that c
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'j-moseley' => 'jack.moseley@outlook.com' }
-  s.source           = { :git => 'https://github.com/j-moseley/ios-jmcommon', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/j-moseley/ios-jmcommon.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
