@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
 This pod framework was created as a source of common UI & utility classes that can be used by multiple applications to help define a good project structure and reduce repeated code.
                        DESC
 
-  s.homepage         = 'https://github.com/j-moseley/ios-commonutils'
+  s.homepage         = 'https://github.com/j-moseley/ios-jmcommon'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'j-moseley' => 'jack.moseley@outlook.com' }
-  s.source           = { :git => 'https://github.com/j-moseley/ios-commonutils', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/j-moseley/ios-jmcommon', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
