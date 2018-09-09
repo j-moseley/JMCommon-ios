@@ -13,6 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		975853DD2145CC3C008370EF /* MainViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975853DC2145CC3C008370EF /* MainViewCollectionViewCell.swift */; };
 		97F0E969213DE79F000533B6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F0E968213DE79F000533B6 /* MainView.swift */; };
 		B798D5358886A389DB8A794D /* Pods_JMCommon_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C777F73369F5E7573DF3204B /* Pods_JMCommon_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		73FCF5C6A7C4AA8CE413556F /* Pods_JMCommon_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMCommon_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		975853DC2145CC3C008370EF /* MainViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCollectionViewCell.swift; sourceTree = "<group>"; };
 		97F0E968213DE79F000533B6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B6AB1C534E7DC8EC235ACE31 /* Pods-JMCommon_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMCommon_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JMCommon_Example/Pods-JMCommon_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C777F73369F5E7573DF3204B /* Pods_JMCommon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMCommon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +101,7 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 				97F0E968213DE79F000533B6 /* MainView.swift */,
+				975853DC2145CC3C008370EF /* MainViewCollectionViewCell.swift */,
 			);
 			name = "Example for JMCommon";
 			path = JMCommon;
@@ -346,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975853DD2145CC3C008370EF /* MainViewCollectionViewCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				97F0E969213DE79F000533B6 /* MainView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
