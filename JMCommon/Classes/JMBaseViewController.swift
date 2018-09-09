@@ -27,7 +27,7 @@ open class JMBaseViewController: UIViewController {
     }
     
     // MARK: - Data Load
-    func loadData() {
+    open func loadData() {
         
     }
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JMCommon'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'iOS library of common UI & utility classes'
   s.swift_version    = '4.1'
 
